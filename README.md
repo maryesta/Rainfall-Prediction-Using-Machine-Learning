@@ -1,1 +1,4 @@
-# Rainfall-Prediction-Using-Machine-Learning
+# Rainfall Prediction Using Machine Learning 
+3rd Place in Data Competition Pekan RISTEK 2024 by Faculty of Computer Science Universitas Indonesia
+- A machine learning model was developed to predict rainfall using weather data as part of the Pekan Ristek Data Competition 2024 organized by the Faculty of Computer Science at Universitas Indonesia, securing 3rd place. The project involved cleaning and preprocessing datasets, performing exploratory data analysis (EDA), and addressing skewed data distributions through Box-Cox and log transformations. Feature engineering included handling categorical variables with label encoding and normalizing numerical features. Multiple regression models were evaluated using KFold cross-validation and Mean Squared Error (MSE). CatBoostRegressor was selected as the final model due to its performance, and SHAP analysis was used to interpret feature importance. Hyperparameter tuning with Optuna further optimized the model, achieving competitive results on Kaggle.
+- **Tools**: Python (Preprocessing, EDA, Feature Engineering, Regression Modeling)
